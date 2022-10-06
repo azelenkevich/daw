@@ -1,0 +1,12 @@
+@use 'styles/variables' as vars;
+
+.trackItem {
+  height: 63px;
+  background-color: vars.$primary;
+  border-top: 1px solid vars.$secondary2;
+
+  &.selected {
+    background-color: vars.$secondary1;
+    border-left: 4px solid vars.$accent;
+  }
+}

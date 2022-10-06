@@ -1,0 +1,28 @@
+@use 'styles/variables' as vars;
+@use 'styles/mixins';
+
+.transportButton {
+  @include mixins.square(44px);
+  @include mixins.center;
+  @include mixins.transition-button;
+
+  background-color: vars.$secondary2;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: vars.$secondary3;
+  }
+
+  &.active {
+    background-color: vars.$accent;
+  }
+
+  .icon {
+    @include mixins.square(17px);
+
+    color: vars.$secondary4;
+  }
+}

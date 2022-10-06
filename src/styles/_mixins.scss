@@ -1,0 +1,23 @@
+@mixin square($val) {
+  height: $val;
+  width: $val;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin fill {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin transition-button {
+  transition: .1s ease-in background-color;
+}
+
+@mixin transition-fast {
+  transition: .04s ease-in all;
+}

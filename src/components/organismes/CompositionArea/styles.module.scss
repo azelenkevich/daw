@@ -1,0 +1,9 @@
+.compositionArea {
+  position: relative;
+  width: 80%;
+
+  .grid {
+    position: absolute;
+    z-index: 100;
+  }
+}

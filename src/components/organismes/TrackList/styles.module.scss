@@ -1,0 +1,6 @@
+@use 'styles/variables' as vars;
+
+.trackList {
+  width: 20%;
+  border-right: 1px solid vars.$secondary2;
+}

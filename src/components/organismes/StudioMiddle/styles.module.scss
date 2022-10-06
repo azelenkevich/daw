@@ -1,0 +1,7 @@
+.studioMiddle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(100vh - 58px);
+  overflow-y: scroll;
+}
